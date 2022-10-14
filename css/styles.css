@@ -1,0 +1,19 @@
+/*  #E7DFD5 #84A9AC #3B6978 #204051  */
+body {
+  background-color: #e7dfd5;
+}
+hr {
+  background-color: #84a9ac;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #e7dfd5;
+  border-width: 5px;
+  width: 10%;
+}
+h1, h3 {
+    color: #204051;
+}
+.headshot:hover {
+    transition: transform 0.5s linear;
+    transform: rotate(360deg);
+}
