@@ -7,14 +7,16 @@ h1 {
   margin: 50px auto 0 auto;
   font-family: "Space Grotesk", sans-serif;
   font-size: 5.5em;
-  color: green;
+  /* color: green; */
+  color: #1c6758;
 }
 h2,
 h3 {
   font-family: "Oxygen", sans-serif;
   font-weight: normal;
   line-height: 2;
-  color: green;
+  /* color: green; */
+  color: #3d8361;
 }
 p {
   color: #708090;
@@ -24,11 +26,13 @@ p {
 }
 .top-container {
   padding-top: 100px;
-  background-color: lightblue;
+  /* background-color: lightblue; */
+  background-color: #eef2e6;
   position: relative;
   height: 600px;
 }
 .middle-container {
+  padding-bottom: 30px;
 }
 .bottom-container {
 }
@@ -71,4 +75,10 @@ p {
 }
 .links:hover {
   text-decoration: underline;
+}
+.subtle {
+  font-size: small;
+}
+.contact-me {
+  padding-bottom: 10px;
 }
