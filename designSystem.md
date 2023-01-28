@@ -38,7 +38,7 @@ Numbers in a table should be right-aligned
 #21252b, #343A40, #495057, #858E96, #ACB5BD, #CED4DA, #DEE2E6, #E8ECEF, #F1F3F5, #F8F9FA
 
 ### Primary Colors
-#379237, #46B946, #66CC66, #88DD88, #96E996, #BEF4BE, #D1FAD1
+#144c14, #2b5d2b, #426f42, #5a815a, #729372, #89a589, #a1b7a1, #b8c9b8, #d0dbd0, #e7ede7, 
 
 ### Accents
 For new features:

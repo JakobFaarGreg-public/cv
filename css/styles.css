@@ -6,17 +6,17 @@ body {
 h1 {
   margin: 50px auto 0 auto;
   font-family: "Space Grotesk", sans-serif;
-  font-size: 5.5em;
-  /* color: green; */
-  color: #1c6758;
+  font-size: 72px;
+  color: #21252b;
+  z-index: 2;
 }
 h2,
 h3 {
   font-family: "Oxygen", sans-serif;
-  font-weight: normal;
+  font-weight: 700;
+  letter-spacing: 0.07em;
   line-height: 2;
-  /* color: green; */
-  color: #3d8361;
+  color: #495057;
 }
 p {
   color: #708090;
@@ -27,22 +27,20 @@ p {
 .top-container {
   padding-top: 100px;
   /* background-color: lightblue; */
-  background-color: #eef2e6;
+  background-color: #DEE2E6;
   position: relative;
   height: 600px;
 }
 .middle-container {
   padding-bottom: 30px;
 }
-.top-cloud {
-  position: absolute;
-  right: 200px;
-  top: 40px;
+.bottom-container {
+  background-color: #144C14;
 }
-.bottom-cloud {
+.wave {
   position: absolute;
-  bottom: 300px;
-  left: 200px;
+  opacity: 0.25;
+  width: 50px;
 }
 .profile-img {
   margin-top: 20px;
@@ -74,6 +72,7 @@ p {
 }
 .subtle {
   font-size: small;
+  color: #CED4DA;
 }
 .contact-me {
   padding-bottom: 10px;
