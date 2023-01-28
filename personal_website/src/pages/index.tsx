@@ -24,7 +24,7 @@ export default function Home() {
         <title>Jakob Faarbæk Gregersen</title>
       </Head>
       <div className={styles.body}>
-        <div className={styles.topContainer} style={{ zIndex: 0 }}>
+        <div className={styles.topContainer}>
           <h1>Jakob F. G.</h1>
           <h2>Software Developer &amp; Fisherman</h2>
           <Image
@@ -78,18 +78,16 @@ export default function Home() {
             <Image
               src="/fishing.png"
               alt="boy fishing-img"
-              width={128}
-              height={128}
-              className={styles.fishingImg}
-              style={{ left: "208px;", top: "4px" }}
+              width={100}
+              height={100}
+              style={{ left: "208px;", top: "4px", position: "absolute" }}
             />
             <Image
               src="/keyboard.png"
               alt="keyboard-img"
               width={200}
               height={200}
-              className={styles.keyboard}
-              style={{ left: "50px" }}
+              style={{ left: "50px", position: "absolute" }}
             />
           </div>
         </div>
@@ -132,8 +130,8 @@ export default function Home() {
                 className={styles.programmingImg}
                 src="/programming_circle.png"
                 alt="Programming-img"
-                width={10}
-                height={10}
+                width={100}
+                height={100}
               />
               <h3>Programming</h3>
               <p>
@@ -150,8 +148,8 @@ export default function Home() {
                 className={styles.fishingImg}
                 src="/fisker_circle.png"
                 alt="Fishing at dawn-img"
-                width={10}
-                height={10}
+                width={100}
+                height={100}
               />
               <h3>Fishing</h3>
               <p>
