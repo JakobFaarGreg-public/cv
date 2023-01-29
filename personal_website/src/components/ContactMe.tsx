@@ -76,10 +76,9 @@ export default function ContactMe() {
           src="https://media.giphy.com/media/QXuc5klZIp8pW/giphy.gif?cid=ecf05e47mi7tv2z1590dmzyjxymz9w1am2omsp62mqmb62ck&rid=giphy.gif&ct=s"
           alt="fish gif"
           height={20}
-          width={20}
-          loading={"eager"}
-          priority
-          style={{ paddingLeft: "25px" }}
+          width={37}
+          style={{marginLeft: "20px"}}
+
         />
         <div style={{ position: "absolute", right: "-5%", top: "0px" }}>
           <a

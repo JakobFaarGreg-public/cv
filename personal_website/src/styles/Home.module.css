@@ -88,3 +88,24 @@
 .svg {
   padding: 0px 10px;
 }
+.indicatorContainer {
+  width: 600px;
+  height: 70px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.indicateRight {
+  right: 0%;
+}
+.indicateLeft {
+  left: 0%;
+}
+.nameInputContainer {
+  position: relative;
+  height: 200px;
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
