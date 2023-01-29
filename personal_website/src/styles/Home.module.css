@@ -23,6 +23,7 @@
 }
 .p {
   color: #708090;
+  line-height: 2;
 }
 .footerText {
   font-family: "Play", sans-serif;
@@ -30,7 +31,7 @@
 .topContainer {
   padding-top: 100px;
   /* background-color: lightblue; */
-  background-color: #DEE2E6;
+  background-color: #dee2e6;
   position: relative;
   height: 600px;
 }
@@ -38,7 +39,8 @@
   padding-bottom: 30px;
 }
 .bottomContainer {
-  background-color: #144C14;
+  background-color: #144c14;
+  margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -59,12 +61,10 @@
 .programmingImg {
   float: left;
   margin-right: 30px;
-  position: absolute
 }
 .fishingImg {
   float: right;
   margin-left: 30px;
-  position: absolute
 }
 .links {
   text-decoration: none;
@@ -76,8 +76,15 @@
 }
 .subtle {
   font-size: small;
-  color: #CED4DA;
+  color: #ced4da;
 }
 .contactMe {
   padding-bottom: 10px;
+}
+
+.hr {
+  margin: 20px 0px;
+}
+.svg {
+  padding: 0px 10px;
 }

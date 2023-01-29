@@ -1,14 +1,14 @@
 import React from "react";
 import styles from "@/styles/Home.module.css";
 
-export default function BottomContainer() {
+export default function Footer() {
   return (
     <div className={styles.bottomContainer}>
       <p
         className={styles.subtle}
         style={{
-          marginTop: "0px;",
-          paddingTop: "20px;",
+          marginTop: "0px",
+          paddingTop: "20px",
           fontSize: "small",
         }}
       >
@@ -20,9 +20,9 @@ export default function BottomContainer() {
           href="https://www.flaticon.com/free-icons/fishing"
           title="fishing icons"
         >
-          Fishing
+          Fishing{" "}
         </a>
-        and
+        and{" "}
         <a
           className={styles.links + " " + styles.subtle}
           href="https://www.flaticon.com/free-icons/keyboard"

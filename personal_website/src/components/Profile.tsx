@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "@/styles/Home.module.css";
 export default function Profile() {
   return (
-    <div className="profile">
+    <div className={styles.profile}>
       <Image
         src="/jakob_circle.png"
         alt="portrait-img"
@@ -11,9 +11,9 @@ export default function Profile() {
         height={150}
         className={styles.profileImg}
       />
-      <h2>Welcome to my page</h2>
-      <p>
-        I am a
+      <h2 className={styles.h2}>Welcome to my page</h2>
+      <p className={styles.p}>
+        I am a{" "}
         <a
           className={styles.links}
           href="https://www.aau.dk/uddannelser/bachelor/software"
@@ -22,8 +22,8 @@ export default function Profile() {
         </a>
         .
       </p>
-      <p>
-        I am currently studying a
+      <p className={styles.p}>
+        I am currently studying a{" "}
         <a
           className={styles.links}
           href="https://www.aau.dk/uddannelser/kandidat/software"

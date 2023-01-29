@@ -5,13 +5,13 @@ import styles from "@/styles/Home.module.css";
 function WebsiteHeader() {
   return (
     <div className={styles.topContainer}>
-      <h1>Jakob F. G.</h1>
-      <h2>Software Developer &amp; Fisherman</h2>
+      <h1 className={styles.h1}>Jakob F. G.</h1>
+      <h2 className={styles.h2}>Software Developer &amp; Fisherman</h2>
       <Image
         src="/wave.png"
         alt="Handdrawn wave"
         width={150}
-        height={48}
+        height={30}
         className={styles.wave}
         style={{ bottom: "200px", left: "100px" }}
       />
@@ -19,7 +19,7 @@ function WebsiteHeader() {
         src="/wave.png"
         alt="Handdrawn wave"
         width={150}
-        height={48}
+        height={30}
         className={styles.wave}
         style={{ bottom: "100px", left: "300px" }}
       />
@@ -27,7 +27,7 @@ function WebsiteHeader() {
         src="/wave.png"
         alt="Handdrawn wave"
         width={150}
-        height={48}
+        height={30}
         className={styles.wave}
         style={{ bottom: "300px", left: "200px" }}
       />
@@ -35,7 +35,7 @@ function WebsiteHeader() {
         src="/wave.png"
         alt="Handdrawn wave"
         width={150}
-        height={48}
+        height={30}
         className={styles.wave}
         style={{ bottom: "140px", right: "200px" }}
       />
@@ -43,15 +43,15 @@ function WebsiteHeader() {
         src="/wave.png"
         alt="Handdrawn wave"
         width={150}
-        height={48}
+        height={30}
         className={styles.wave}
         style={{ bottom: "300px", right: "160px" }}
       />
       <div
         style={{
-          margin: "0 auto;",
+          margin: "0 auto",
           position: "relative",
-          height: "300px;",
+          height: "300px",
           width: "300px",
         }}
       >
@@ -60,7 +60,7 @@ function WebsiteHeader() {
           alt="boy fishing-img"
           width={100}
           height={100}
-          style={{ left: "208px;", top: "4px", position: "absolute" }}
+          style={{ left: "208px", top: "4px", position: "absolute" }}
         />
         <Image
           src="/keyboard.png"

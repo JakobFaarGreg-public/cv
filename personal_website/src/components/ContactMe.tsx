@@ -1,23 +1,29 @@
 import React from "react";
+import Image from "next/image";
 import styles from "@/styles/Home.module.css";
 
 export default function ContactMe() {
   return (
     <>
       <div className="contact-me">
-        <h3 style={{ marginBottom: "0px" }}>Get In Touch</h3>
-        <h3 style={{ marginTop: "0px;", fontSize: "medium" }}>
+        <h3 className={styles.h3} style={{ marginBottom: "0px" }}>
+          Get In Touch
+        </h3>
+        <h3
+          className={styles.h3}
+          style={{ marginTop: "0px", fontSize: "medium" }}
+        >
           If you have a cool fishing trick or a recommendation
         </h3>
-        <p>
+        <p className={styles.p} style={{ paddingBottom: "20px" }}>
           Click a contact-button below, to set up a talk with me, so that we can
           fish or code together!
         </p>
         <svg
+          className={styles.svg}
           aria-hidden="true"
           style={{
-            height: "15px;",
-            paddingRight: "5px;",
+            height: "15px",
             color: "#708090",
           }}
           focusable="false"
@@ -36,10 +42,17 @@ export default function ContactMe() {
           Email
         </a>
       </div>
-      <div style={{ position: "relative", width: "240px;", margin: "0 auto" }}>
-        <div style={{ position: "absolute", left: "5%" }}>
+      <div
+        style={{
+          position: "relative",
+          width: "240px",
+          margin: "0 auto",
+        }}
+      >
+        <div style={{ position: "absolute" }}>
           <svg
-            style={{ height: "15px;", color: "#708090" }}
+            className={styles.svg}
+            style={{ height: "15px", color: "#708090" }}
             aria-hidden="true"
             focusable="false"
             data-icon="linkedin"
@@ -59,12 +72,16 @@ export default function ContactMe() {
             LinkedIn
           </a>
         </div>
-        <img
+        <Image
           src="https://media.giphy.com/media/QXuc5klZIp8pW/giphy.gif?cid=ecf05e47mi7tv2z1590dmzyjxymz9w1am2omsp62mqmb62ck&rid=giphy.gif&ct=s"
-          alt="fish-gif"
-          style={{ height: "20px;", paddingLeft: "10px" }}
+          alt="fish gif"
+          height={20}
+          width={20}
+          loading={"eager"}
+          priority
+          style={{ paddingLeft: "25px" }}
         />
-        <div style={{ position: "absolute", right: "5%;", top: "0px" }}>
+        <div style={{ position: "absolute", right: "-5%", top: "0px" }}>
           <a
             className={styles.links}
             href="https://www.github.com/jakobfaargreg/"
@@ -72,7 +89,8 @@ export default function ContactMe() {
             Github
           </a>
           <svg
-            style={{ height: "15px;", color: "#708090" }}
+            className={styles.svg}
+            style={{ height: "15px", color: "#708090" }}
             aria-hidden="true"
             focusable="false"
             data-icon="github"
