@@ -1,0 +1,155 @@
+.body {
+  margin: 0;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.h1 {
+  margin: 50px auto 0 auto;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 72px;
+  color: #21252b;
+  z-index: 2;
+}
+.h2,
+.h3 {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  line-height: 2;
+  color: #495057;
+}
+.h4 {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 500;
+  color: #495057;
+}
+.p {
+  color: #708090;
+  line-height: 2;
+}
+.footerText {
+  font-family: "Play", sans-serif;
+}
+.topContainer {
+  padding-top: 100px;
+  /* background-color: lightblue; */
+  background-color: #dee2e6;
+  position: relative;
+  height: 600px;
+}
+.middleContainer {
+  padding-bottom: 30px;
+}
+.bottomContainer {
+  background-color: #144c14;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wave {
+  position: absolute;
+  opacity: 0.25;
+  width: 50px;
+}
+.profileImg {
+  margin-top: 20px;
+}
+.skillRow {
+  width: 50%;
+  margin: 50px auto;
+  text-align: left;
+  line-height: 2;
+}
+.programmingImg {
+  float: left;
+  margin-right: 30px;
+}
+.fishingImg {
+  float: right;
+  margin-left: 30px;
+}
+.links {
+  text-decoration: none;
+  color: #708090;
+  font-weight: 700;
+}
+.links:hover {
+  text-decoration: underline;
+}
+.subtle {
+  font-size: small;
+  color: #ced4da;
+}
+.contactMe {
+  padding-bottom: 10px;
+}
+
+.hr {
+  margin: 20px 0px;
+}
+.svg {
+  padding: 0px 10px;
+}
+.indicatorContainer {
+  width: 600px;
+  height: 70px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.indicate5 {
+  right: 0%;
+}
+.indicate4 {
+  right: 15%;
+}
+.indicate3 {
+  right: 30%;
+}
+.indicate2 {
+  right: 45%;
+}
+.indicate1 {
+  right: 60%;
+}
+.indicate0 {
+  right: 72%;
+}
+.indicateNeg1 {
+  right: 85%;
+}
+.indicateNeg2 {
+  left: 0%;
+}
+.nameInputContainer {
+  position: relative;
+  height: 200px;
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.inputField {
+  font-family: "Oxygen", sans-serif;
+  padding: 4px 2px;
+}
+.submitButton {
+  padding: 5px 10px;
+  font-family: "Oxygen", sans-serif;
+  background-color: #426f42;
+  color: white;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: black;
+}
+.submitButton:hover {
+  background-color: #144c14;
+  color: white;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: black;
+}
