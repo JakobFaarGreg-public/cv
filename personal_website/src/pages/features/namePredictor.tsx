@@ -17,7 +17,7 @@ interface Data {
     year: number;
   };
 }
-export default function namePredictor() {
+export default function NamePredictor() {
   const [score, setScore] = useState<number>(0);
   const [isLoading, setIsLoading] = useState(false);
   const nameSuggestion = useRef<null | HTMLInputElement>(null);
@@ -100,7 +100,7 @@ export default function namePredictor() {
             marginRight: "auto",
           }}
         >
-          Marie thinks "<b>{nameSuggestion.current?.value}</b>" deserves a score
+          Marie thinks &quot;<b>{nameSuggestion.current?.value}</b>&quot; deserves a score
           of {score}
         </h3>
       ) : (
