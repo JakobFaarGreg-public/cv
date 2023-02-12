@@ -7,7 +7,7 @@ export default function Profile() {
     <div className={styles.profile}>
       <Link href="/features/namePredictor">
         <Image
-          src="/jakob_circle.png"
+          src="/cv/jakob_circle.png"
           alt="portrait-img"
           width={150}
           height={150}

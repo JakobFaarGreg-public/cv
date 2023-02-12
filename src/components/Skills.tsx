@@ -8,7 +8,7 @@ export default function Skills() {
       <div className={styles.skillRow}>
         <Image
           className={styles.programmingImg}
-          src="/programming_circle.png"
+          src="/cv/programming_circle.png"
           alt="Programming-img"
           width={100}
           height={100}
@@ -26,7 +26,7 @@ export default function Skills() {
       <div className={styles.skillRow}>
         <Image
           className={styles.fishingImg}
-          src="/fisker_circle.png"
+          src="/cv/fisker_circle.png"
           alt="Fishing at dawn-img"
           width={100}
           height={100}

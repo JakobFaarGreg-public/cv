@@ -8,7 +8,7 @@ function WebsiteHeader() {
       <h1 className={styles.h1}>Jakob F. G.</h1>
       <h2 className={styles.h2}>Software Developer &amp; Fisherman</h2>
       <Image
-        src="/wave.png"
+        src="/cv/wave.png"
         alt="Handdrawn wave"
         width={150}
         height={30}
@@ -16,7 +16,7 @@ function WebsiteHeader() {
         style={{ bottom: "200px", left: "100px" }}
       />
       <Image
-        src="/wave.png"
+        src="/cv/wave.png"
         alt="Handdrawn wave"
         width={150}
         height={30}
@@ -24,7 +24,7 @@ function WebsiteHeader() {
         style={{ bottom: "100px", left: "300px" }}
       />
       <Image
-        src="/wave.png"
+        src="/cv/wave.png"
         alt="Handdrawn wave"
         width={150}
         height={30}
@@ -32,7 +32,7 @@ function WebsiteHeader() {
         style={{ bottom: "300px", left: "200px" }}
       />
       <Image
-        src="/wave.png"
+        src="/cv/wave.png"
         alt="Handdrawn wave"
         width={150}
         height={30}
@@ -40,7 +40,7 @@ function WebsiteHeader() {
         style={{ bottom: "140px", right: "200px" }}
       />
       <Image
-        src="/wave.png"
+        src="/cv/wave.png"
         alt="Handdrawn wave"
         width={150}
         height={30}
@@ -56,15 +56,16 @@ function WebsiteHeader() {
         }}
       >
         <Image
-          src="/fishing.png"
+          src="/cv/fishing.png"
           alt="boy fishing-img"
           width={100}
           height={100}
           style={{ left: "208px", top: "4px", position: "absolute" }}
         />
         <Image
-          src="/keyboard.png"
+          src="/cv/keyboard.png"
           alt="keyboard-img"
+          priority
           width={200}
           height={200}
           style={{ left: "50px", position: "absolute" }}

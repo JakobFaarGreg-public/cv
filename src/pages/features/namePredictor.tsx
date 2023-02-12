@@ -116,7 +116,7 @@ export default function NamePredictor() {
       {/* If no name suggestion, use invisible placeholder */}
       <div className={styles.indicatorContainer}>
         <Image
-          src="/gradient_line.png"
+          src="/cv/gradient_line.png"
           priority
           height={20}
           width={600}
@@ -124,7 +124,7 @@ export default function NamePredictor() {
         />
         {!!nameSuggestion.current?.value ? (
           <Image
-            src="/arrow_shadow.png"
+            src="/cv/arrow_shadow.png"
             className={`${
               score == 5
                 ? styles.indicate5
@@ -149,7 +149,7 @@ export default function NamePredictor() {
           />
         ) : (
           <Image
-            src="/arrow_shadow.png"
+            src="/cv/arrow_shadow.png"
             className={`${styles.indicateNeg2}`}
             height={40}
             width={20}
