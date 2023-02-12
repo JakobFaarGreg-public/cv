@@ -16,7 +16,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Jakob Faarbæk Gregersen</title>
       </Head>
-      <div className={styles.body}>
+      <div>
         <WebsiteHeader />
         <div className={styles.middleContainer}>
           <Profile />
